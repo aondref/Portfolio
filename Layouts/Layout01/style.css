@@ -16,6 +16,23 @@ header, section, footer {
 }
 
 /**** Header ****/
+.header-container {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.header-container > h1, p {
+    text-align: center;
+}
+
+.header-container h1 {
+    font-size: 3.5em;
+}
+
+.header-container p {
+    font-size: 1.75em;
+}
 /**** Navigation ****/
 ul li {
     list-style: none;
