@@ -1,6 +1,8 @@
+/**** General ****/
+
 /**** Home ****/
 .home {
-    display: none;
+    display: block;
 }
 
 /**** About ****/
